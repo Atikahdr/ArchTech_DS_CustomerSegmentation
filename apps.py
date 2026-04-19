@@ -22,7 +22,10 @@ def load_css():
 load_css()
 
 # PAGE CONFIG
-st.set_page_config(page_title="Customer Segmentation", layout="wide")
+st.set_page_config(
+    page_title="Customer Segmentation", 
+    page_icon="👥"
+    layout="wide")
 
 # Input Page
 st.markdown("""
