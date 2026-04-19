@@ -316,7 +316,7 @@ st.markdown("""
 </div>
 
 <div class="footer-sub">
-Machine Learning • K-Means Clustering • Feature Engineering • Streamlit App
+Machine Learning • Data Science • K-Means Clustering • Streamlit App
 </div>
 
 <div>
