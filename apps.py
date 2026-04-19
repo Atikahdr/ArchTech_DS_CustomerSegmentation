@@ -73,7 +73,7 @@ var_1 = st.selectbox("Category (Var_1)", [
 col_left, col_center, col_right = st.columns([1, 2, 1])
 
 with col_center:
-        predict_clicked = st.button("🚀 Predict Segment", use_container_width=True)
+        predict_clicked = st.button("# 🚀 Predict Segment", use_container_width=True)
 
 if predict_clicked:
 
