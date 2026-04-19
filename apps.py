@@ -14,19 +14,19 @@ kmeans = model_package["kmeans"]
 prof_freq = model_package["prof_freq"]
 var_freq = model_package["var_freq"]
 
-# Load CSS
-def load_css():
-    with open("style.css") as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-load_css()
-
 # PAGE CONFIG
 st.set_page_config(
     page_title="Customer Segmentation",
     page_icon="👥",
     layout="wide"
 )
+
+# Load CSS
+def load_css():
+    with open("style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+load_css()
 
 # Input Page
 st.markdown("""
